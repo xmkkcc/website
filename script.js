@@ -216,10 +216,17 @@ document.addEventListener('DOMContentLoaded', function () {
   
   addMusicControl();
 });
- // Gán sự kiện click cho từng ảnh trong gallery
+// Đợi trang web tải xong
+document.addEventListener("DOMContentLoaded", function() {
+    const galleryImages = document.querySelectorAll('.gallery img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+
+    // Gán sự kiện click cho từng ảnh trong gallery
     galleryImages.forEach(img => {
         img.onclick = function() {
             lightbox.style.display = 'flex';
             lightboxImg.src = this.src;
         };
     });
+});
