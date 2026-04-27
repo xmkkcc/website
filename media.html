@@ -24,35 +24,57 @@
   <main class="container">
     <section class="page">
       <h1>Multimedia</h1>
-      <p>Khám phá các video và hình ảnh của tôi.</p>
+      <p>Khám phá bộ sưu tập video, hình ảnh và nội dung đa phương tiện của tôi. Tại đây bạn sẽ tìm thấy các dự án, mẫu thiết kế, hướng dẫn và những nội dung hữu ích khác.</p>
+      
+      <!-- Background Music Section -->
+      <section class="background-music-section">
+        <h2>🎵 Nhạc nền</h2>
+        <p>Nhạc nền giúp tạo không khí tuyệt vời khi bạn duyệt trang web. Nhấn Play để bắt đầu.</p>
+        <audio controls autoplay loop muted style="width: 100%; margin-bottom: 20px;">
+          <source src="TINH VỆ (精卫) - JAPANDEE REMIX - YouTube.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ thẻ audio.
+        </audio>
+        <p><small><strong>Ghi chú:</strong> Để sử dụng tệp âm thanh của riêng bạn, hãy thay thế "your-audio-file.mp3" bằng đường dẫn tới tệp nhạc của bạn.</small></p>
+      </section>
+
+      <!-- YouTube Link Section -->
+      <section class="youtube-section">
+        <h2>🎬 Video YouTube</h2>
+        <p>Một số video hay và thú vị mà tôi muốn chia sẻ với bạn:</p>
+        <div class="youtube-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/906FFy0nDng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p><small><strong>Ghi chú:</strong> Để nhúng video YouTube khác, hãy thay thế ID video (JXFSbRi5zMY) trong URL src bằng ID video của bạn. Ví dụ: src="https://www.youtube.com/embed/dQw4w9WgXcQ"</small></p>
+      </section>
+
       <div class="media-gallery">
         <div class="media-item">
           <div class="media-placeholder">
-            <strong>Video demo</strong>
-            <p>Thay thế bằng video của bạn khi sẵn sàng.</p>
+            <strong>Demo video dự án</strong>
+            <p>Video minh họa tính năng và thiết kế của các dự án web.</p>
           </div>
-          <p>Mô tả video 1</p>
+          <p>Xem demo dự án web chuyên nghiệp</p>
         </div>
         <div class="media-item">
           <div class="media-placeholder">
-            <strong>Hình ảnh minh họa</strong>
-            <p>Thêm ảnh hoặc ảnh chụp màn hình dự án tại đây.</p>
+            <strong>Ảnh chụp màn hình giao diện</strong>
+            <p>Hiển thị thiết kế UI/UX của các trang web.</p>
           </div>
-          <p>Mô tả hình ảnh 1</p>
+          <p>Bộ sưu tập thiết kế giao diện người dùng</p>
         </div>
         <div class="media-item">
           <div class="media-placeholder">
-            <strong>Video demo</strong>
-            <p>Thay thế bằng video của bạn khi sẵn sàng.</p>
+            <strong>Video hướng dẫn lập trình</strong>
+            <p>Các bài hướng dẫn về HTML, CSS, JavaScript và web development.</p>
           </div>
-          <p>Mô tả video 2</p>
+          <p>Hướng dẫn lập trình web cơ bản đến nâng cao</p>
         </div>
         <div class="media-item">
           <div class="media-placeholder">
-            <strong>Hình ảnh minh họa</strong>
-            <p>Thêm ảnh hoặc ảnh chụp màn hình dự án tại đây.</p>
+            <strong>Ảnh sáng tạo và thiết kế</strong>
+            <p>Các ảnh sáng tạo, đồ họa và tài nguyên thiết kế hữu ích.</p>
           </div>
-          <p>Mô tả hình ảnh 2</p>
+          <p>Thư viện tài nguyên thiết kế đồ họa</p>
         </div>
       </div>
     </section>
@@ -63,3 +85,9 @@
       <div class="footer-left">
         <p>&copy; <span id="year"></span> Huỳnh Quốc Lĩnh. Mọi quyền giữ.</p>
       </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
